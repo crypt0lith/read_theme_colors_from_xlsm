@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[55]:
-
-
 from openpyxl.xml.functions import fromstring, QName
 from openpyxl import load_workbook
 
