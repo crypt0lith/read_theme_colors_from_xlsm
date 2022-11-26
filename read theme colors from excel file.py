@@ -18,6 +18,4 @@ for c in ['lt1', 'dk1', 'lt2', 'dk2', 'accent1', 'accent2', 'accent3', 'accent4'
         colors.append(accent.getchildren()[0].attrib['lastClr'])
     else:
         colors.append(accent.getchildren()[0].attrib['val'])
-
-    accentColors = (str(colors.pop()))
-    print(c + ': ' + accentColors)
+print(colors)
